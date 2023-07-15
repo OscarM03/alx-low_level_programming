@@ -27,7 +27,7 @@ int main(void)
 	if (t1 != 9 || o1 != 9 || t2 != 9 || o2 != 9)
 	{
 	putchar(',');
-	putchar('\t');
+	putchar(' ');
 	}
 	}
 	}
