@@ -24,7 +24,7 @@ int main(void)
 	putchar('0' + t2);
 	putchar('0' + o2);
 
-	if (t1 != 9 || o1 != 9 || t2 != 9 || o2 != 9)
+	if (t1 != 9 || o1 != 8 || t2 != 9 || o2 != 9)
 	{
 	putchar(',');
 	putchar(' ');
