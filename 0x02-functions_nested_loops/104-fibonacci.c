@@ -20,7 +20,7 @@ int main(void)
 
 		if (n != 97)
 		{
-			printf(",");
+			printf(", ");
 		}
 
 		a = b;
