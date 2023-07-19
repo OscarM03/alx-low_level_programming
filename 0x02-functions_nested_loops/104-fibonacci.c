@@ -6,17 +6,17 @@
 int main(void)
 {
 
-	long int a = 1;
-	long int b = 2;
-	long int c;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
+	unsigned long int c;
 	int n;
 
-	printf("%ld, %ld, ", a, b);
+	printf("%lu, %lu, ", a, b);
 
 	for (n = 2; n < 98; n++)
 	{
 		c = a + b;
-		printf("%ld", c);
+		printf("%lu", c);
 
 		if (n != 97)
 		{
