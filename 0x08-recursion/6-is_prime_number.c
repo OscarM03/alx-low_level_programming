@@ -14,7 +14,7 @@ int is_prime_number(int n)
 }
 /**
   * prime_helper - checks if n is prime
-  * @n: ineger
+  * @n: integer
   * @devisor: devisor int
   * Return: 0
   */
