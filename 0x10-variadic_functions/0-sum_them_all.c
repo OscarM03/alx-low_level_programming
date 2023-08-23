@@ -3,6 +3,7 @@
   * sum_them_all - sums all the ints
   * @n: number of variadic functions
   * @...: variadic functions
+  * Return: sum
   */
 int sum_them_all(const unsigned int n, ...)
 {
