@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  * add_nodeint - adds anew node 
+  * add_nodeint - adds anew node
   * @head: current node
   * @n: int
   * Return: address of new node
