@@ -7,18 +7,18 @@
   */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int difference, flipped_bits;
+	unsigned long int d, bits;
 
-	difference = n ^ m;
-	flipped_bits = 0;
+	d = n ^ m;
+	bits = 0;
 
-	while (difference > 0)
+	while (d > 0)
 	{
-		if ((difference & 1) == 1)
+		if ((d & 1) == 1)
 		{
-			flipped_bits++;
+			bits++;
 		}
-		difference >>= 1;
+		d >>= 1;
 	}
-	return (flipped_bits);
+	return (bits);
 }
