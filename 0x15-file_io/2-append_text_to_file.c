@@ -22,7 +22,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	while (text_content[total_bytes] != '\0')
 		total_bytes++;
 
-	if (write(file_d, text_content, total_bytes) == -1) 
+	if (write(file_d, text_content, total_bytes) == -1)
 	{
 		close(file_d);
 		return (-1);
