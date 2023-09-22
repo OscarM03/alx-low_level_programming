@@ -4,23 +4,23 @@
  * @s: The string to search.
  * @accept: The bytes to search for.
  *
- * Return: A pointer to the byte in s 
+ * Return: A pointer to the byte in s
  */
 char *_strpbrk(char *s, char *accept)
 {
-    char *ptr;
+	char *ptr;
 
-    while (*s != '\0')
-    {
-        ptr = accept;
-        while (*ptr != '\0')
-        {
-            if (*s == *ptr)
-                return (s);
-            ptr++;
-        }
-        s++;
-    }
+	while (*s != '\0')
+	{
+		ptr = accept;
+		while (*ptr != '\0')
+		{
+			if (*s == *ptr)
+				return (s);
+			ptr++;
+		}
+		s++;
+	}
 
-    return (NULL);
+	return (NULL);
 }
