@@ -19,7 +19,7 @@ int custom_strlen(char *str)
 }
 
 /**
- * custom_create_file - Creates a new file or truncates an existing one.
+ * create_file - Creates a new file or truncates an existing one.
  * @file_name: Name of the file to be created or modified.
  * @content_text: NULL-terminated string to be written to the file.
  * Return: 1 on success, -1 on failure.
