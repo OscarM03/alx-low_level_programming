@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""No module imported"""
+
+
 def island_perimeter(grid):
     """This function gets the perimeter of an island"""
     perimeter = 0
