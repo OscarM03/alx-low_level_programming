@@ -1,16 +1,6 @@
 #include "search_algos.h"
 
 /**
-* printchar - prints a character
-* @c: character to print
-* Return: char count
-*/
-
-int printchar(char c)
-{
-	return (write(1, &c, 1));
-}
-/**
  * linear_search - searches for a value in an
  * array of integers using the Linear search algorithm
  * @array: pointer to the first element of the array
